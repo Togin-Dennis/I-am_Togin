@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow: hidden; 
+  height: 100%;
+}
+.Leftsidemaindiv,.Rightsidemaindiv {
+  height: 100vh; 
+  overflow-y: auto;
+}
+
+
+
+.Centermaindiv,.Rightsidemaindiv {
+  height: 100vh; 
+  overflow-y: auto; 
+}
+
+.Centermaindiv::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+@media (max-width: 1000px) {
+
+.Leftsidemaindiv,.Rightsidemaindiv {
+ 
+  overflow-y: hidden; 
+}
+.Centermaindiv {
+  overflow-y: hidden; 
+}
+ 
+}
+
+
+
+
+
+@media (min-width: 1000px) and (max-width: 1300px)  {
+
+.Rightsidemaindiv::-webkit-scrollbar {
+  display: none;
+}
+ 
+.Leftsidemaindiv::-webkit-scrollbar {
+  display: none;
+}
+}

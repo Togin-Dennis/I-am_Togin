@@ -1,0 +1,21 @@
+.loadingmaindiv
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Loadingtitle
+{
+     font-family: 'Unbounded', sans-serif; 
+    font-size: 18px;
+    font-weight: 500;
+animation: LoadingAnimation 2s ease-in-out infinite;
+}
+
+@keyframes LoadingAnimation {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}

@@ -1,0 +1,35 @@
+.HomeComponents
+{
+    display: flex;
+    flex-direction: row;
+   
+}
+.Homecontent
+{
+
+animation:homebluranimation 1.5s ease-in-out forwards ;
+
+}
+
+@keyframes homebluranimation {
+
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+    
+}
+
+@media (max-width: 1000px) {
+
+.Homewrapper
+{
+ overflow-y: scroll; 
+ height: 100vh;
+}
+.HomeComponents
+{
+    display: flex;
+    flex-direction: column;
+   
+}
+    
+}

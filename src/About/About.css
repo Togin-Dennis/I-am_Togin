@@ -1,0 +1,99 @@
+.aboutmaindiv {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+  overflow: hidden; /* prevents double scrollbars */
+animation:homebluranimation 1.5s ease-in-out forwards ;
+
+}
+
+@keyframes homebluranimation {
+
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+    
+}
+
+
+.aboutallsection
+{
+    padding: 40px;
+    padding-left: 70px;
+    padding-right: 70px;
+    display: flex;
+    height: calc(100vh - 70px);
+    width: 100%;
+    overflow-y: auto;
+}
+.Myname
+{
+        flex: 2;
+        font-family: 'Unbounded', sans-serif;  
+       font-weight:600;
+
+    
+}
+.Myname:hover
+{
+    cursor: pointer;
+}
+.currentpage
+{
+    font-size: 17px;
+    line-height: 66.6667%;
+    font-family: polySans, IBM Plex Sans JP, sans-serif;
+    font-weight: 600;
+}
+.aboutbox
+{
+    
+    flex-direction: column;
+    display: flex;  
+    flex: 1;
+    height: 100%;
+    text-align: left;
+
+}
+.AboutHeading
+{
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    line-height: 45px;
+    color: #000000;
+    text-align: left;
+    font-family: dnp-shuei-gothic-kin-std, sans-serif;
+}
+.Abouttext
+{
+    font-family:  dnp-shuei-gothic-kin-std, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 10px;
+    letter-spacing: 1.2px;
+}
+@media (max-width: 840px) 
+{
+.aboutallsection
+{
+    flex-direction: column;
+    padding: 25px;
+   
+    
+}
+.Myname
+{
+    flex: 0.5;
+    font-size: 22px;
+}
+.currentpage
+{
+    font-size: 12px;
+}
+.aboutbox
+{
+    flex: 3;
+}
+}

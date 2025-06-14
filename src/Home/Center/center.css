@@ -1,0 +1,103 @@
+.Centermaindiv
+{
+    margin: 50px;
+    margin-top: 0;
+    padding-top: 50px;
+    width: 100%;
+    height: 100%;
+    flex: 1.8;
+    text-align: center;
+    padding-bottom: 100px;
+}
+.centertitle
+{
+     font-family: 'Savate', sans-serif;
+     font-weight: 400;
+     font-size: 27px;
+     color: black;
+    
+}
+.centerimage
+{  
+    
+    width: 100%;
+    aspect-ratio: 16/9;
+    margin-top: 30px;
+    height: auto;
+    object-fit: cover;
+     transition: filter 0.9s ease;
+    
+}
+.centerimage:hover
+{
+ cursor: pointer;
+ filter: brightness(80%);
+}
+.showcase
+{
+    margin-bottom: 30px;
+    text-align: left;
+}
+.showcasetitle
+{   margin-top: 10px;
+    font-size: 21px;
+    line-height: 100%;
+    font-family: dnp-shuei-gothic-kin-std, sans-serif;
+    font-weight: 500;
+}
+.showcasesubtitle
+{
+    padding-top: 10px;
+    font-family:  dnp-shuei-gothic-kin-std, sans-seri;
+    font-size: 17px;
+}
+
+
+@media (max-width: 1000px) 
+{
+
+.Centermaindiv
+{
+margin: 0;
+padding-top: 25px;
+
+padding-left: 25px;
+padding-right: 25px;
+padding-bottom: 0;
+}   
+.showcasesubtitle
+{
+    text-align: justify;
+}
+.centertitle
+{
+    font-size: 19px;
+    text-align: left;
+}
+.showcasetitle
+{
+    font-size: 18px;
+    line-height: 120%;
+}
+.showcasesubtitle
+{
+    font-size: 16px;
+    line-height: 120%;
+}
+}
+
+@media (min-width: 1000px) and (max-width: 1300px)  {
+
+.Centermaindiv
+{
+margin: 0;
+padding: 0;
+padding-top: 25px;
+margin-left: 15px;
+margin-right: 15px;
+padding-bottom: 50px;
+
+
+
+}   
+}

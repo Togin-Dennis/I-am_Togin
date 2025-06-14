@@ -1,0 +1,128 @@
+.Contactscroll
+{
+    height: 100vh;
+    overflow-y: scroll;
+    overflow: auto;
+    padding-bottom: 150px;
+animation:homebluranimation 1.5s ease-in-out forwards ;
+
+}
+
+@keyframes homebluranimation {
+
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+    
+}
+
+.contactallsection
+{
+     padding-right: 70px;
+}
+.ContactformHeading
+{
+    font-size: 42px;
+    
+    font-weight: 400;
+    font-family: 'Unbounded', sans-serif;
+   
+}
+.contactForm
+{
+margin: 70px;
+
+text-align: left;
+}
+form
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.formTitle
+{
+      width: 100%;  
+}
+.formBox
+{
+  margin-top: 35px;
+  width: 100%;  
+}
+.downarrow {
+  margin-top: 20px;
+  animation: arrowanimation 1s infinite;
+}
+
+/* Keyframes for bounce effect */
+@keyframes arrowanimation {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(10px); }
+  100% { transform: translateY(0); }
+}
+
+.inputbox
+{
+    width: 100%;
+    height: 40px;
+    margin-top: 8px;
+    border: 1px solid currentcolor;
+    padding: 20px;
+  
+}
+.InputTitle
+{
+    
+    font-weight: 600;
+    font-size: 15px;
+}
+.TitleSub
+{
+    
+    color: grey;
+    font-weight: 100;
+}
+.msgbox
+{
+    height: 190px;
+}
+.Formbutton
+{
+    width: 270px;
+    margin-top: 50px;
+    background-color: transparent;
+    border: 1px solid black;
+    height: 50px;
+    font-family:polySans, IBM Plex Sans JP, sans-serif;
+    font-size: 12.5px;
+    font-weight: 600;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.Formbutton:hover
+{
+    color: grey;
+}
+.Contactbox
+{
+    flex-direction: column;
+    display: flex;  
+    flex: 1;
+    height: 100%;
+    text-align: left;
+    justify-content: center;
+}
+@media (max-width: 840px) 
+{
+
+.Contactbox
+{
+    flex: 3;
+}
+.contactForm
+{
+margin: 25px;
+
+}
+}
