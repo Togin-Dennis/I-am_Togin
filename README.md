@@ -5,10 +5,10 @@
 </p>
 
 <p align="center">
-  <a href="https://togin-dennis.github.io/portfolio/">
+  <a href="https://togin-dennis.github.io/I-am_Togin/">
     <img alt="Live Demo" src="https://img.shields.io/badge/🌐 Live-Demo-00b894?style=for-the-badge">
   </a>
-  <a href="https://github.com/Togin-Dennis/portfolio">
+  <a href="https://github.com/Togin-Dennis/I-am_Togin">
     <img alt="Source Code" src="https://img.shields.io/badge/💻 View-Code-0984e3?style=for-the-badge&logo=github">
   </a>
   <a href="https://firebase.google.com/">
