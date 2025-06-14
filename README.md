@@ -30,7 +30,7 @@
 ## 🖼️ Live Preview
 
 <p align="center">
-  <img src="https://your-screenshot-url.com/preview.gif" alt="Live Demo Preview" width="85%" />
+  <img src="https://github.com/Togin-Dennis/I-am_Togin/blob/main/Home%20Page.png?raw=true" alt="Live Demo Preview" width="85%" />
 </p>
 
 > ✨ Admin panel included – no coding needed to update!
